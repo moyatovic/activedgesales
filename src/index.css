@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #273a46}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  
+  background-color: #333;
+}
+li {
+  float: left;
+
+}
+li .place {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 5em;
+  text-decoration: none;
+}
+li .place:hover{
+  background-color: black;
+}
+.page-container {
+  padding: 30px;
+  width:900px;
+  margin: 10px auto;
+  background-color: #e6ecf0;
+
+}
+
+.product-listing {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.product-listing .product-list-item {
+  padding: 10px 30px;
+  width: 200px
+}
